@@ -3,7 +3,7 @@ Lizeth Velderrain-Lopez
 GEOG 458 AA
 Lab 4: Map Design and Tile Generation
 
-This [mapping project](https://lizethvl.github.io/geog458-lab4/index.html) shows the public parking garages and lots in the city of Seattle. Map tiles of different basemaps were created using [MapBox](https://www.mapbox.com/). Each tile set has a zoom level ranging from a minimum of 3 to a maximum of 14. When loading the project, a default MapBox basemap is shown, with four different tile set layers to choose from.
+This [mapping project](https://lizethvl.github.io/geog458-lab4/) shows the public parking garages and lots in the city of Seattle. Map tiles of different basemaps were created using [MapBox](https://www.mapbox.com/). Each tile set has a zoom level ranging from a minimum of 3 to a maximum of 14. When loading the project, a default MapBox basemap is shown, with four different tile set layers to choose from.
 
 The first layer shows the modified MapBox basemap, stemming from the monochrome style.
 ![Modified basemap created in MapBox Studio](img/modified-basemap.png)
