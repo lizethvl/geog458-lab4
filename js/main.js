@@ -14,7 +14,7 @@ map.on('load', () => {
     map.addSource('basemap-tiles', {
         'type': 'raster',
         'tiles': [
-            '/assets/modified-basemap/{z}/{x}/{y}.png'
+            'assets/modified-basemap/{z}/{x}/{y}.png'
         ],
         'tileSize': 256
     });
@@ -22,7 +22,7 @@ map.on('load', () => {
     map.addSource('data-tiles', {
         'type': 'raster',
         'tiles': [
-            '/assets/parking-data/{z}/{x}/{y}.png'
+            'assets/parking-data/{z}/{x}/{y}.png'
         ],
         'tileSize': 256
     });
@@ -30,7 +30,7 @@ map.on('load', () => {
     map.addSource('basemap-with-data', {
         'type': 'raster',
         'tiles': [
-            '/assets/basemap-with-data/{z}/{x}/{y}.png'
+            'assets/basemap-with-data/{z}/{x}/{y}.png'
         ],
         'tileSize': 256
     });
@@ -38,7 +38,7 @@ map.on('load', () => {
     map.addSource('uw-basemap', {
         'type': 'raster',
         'tiles': [
-            '/assets/uw-basemap/{z}/{x}/{y}.png'
+            'assets/uw-basemap/{z}/{x}/{y}.png'
         ],
         'tileSize': 256
     });
